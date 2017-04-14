@@ -16,7 +16,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 /**
- * Created by sow.m on 2017/04/13.
+ * Created by Moussa Sow on 2017/04/13.
  */
 
 public class DarsAdapter extends ArrayAdapter<DarsModel> {
