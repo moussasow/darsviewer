@@ -18,12 +18,19 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
     }
 
+    /**
+     * Create some dummy data for test purposes
+     * @return dummy data
+     */
     private ArrayList<DarsModel> createDummyData() {
         ArrayList<DarsModel> data = new ArrayList<>();
 
         data.add(new DarsModel("Fiqh of Ramadan", "March 23, 2017", "dars001.pdf"));
         data.add(new DarsModel("Fiqh of Marriage", "March 30, 2017","dars002.pdf"));
         data.add(new DarsModel("Fiqh of Zakat", "April 7th, 2017", "dars003.pdf"));
+        data.add(new DarsModel("Fiqh of Purification", "April 14th, 2017", "dars004.pdf"));
+        data.add(new DarsModel("Fiqh of Salat", "April 21st, 2017","dars005.pdf"));
+        data.add(new DarsModel("Fiqh of Hajj", "April 28th, 2017", "dars006.pdf"));
 
         return data;
     }
